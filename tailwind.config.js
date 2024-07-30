@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {
       display: ["group-hover"],
+      transitionDuration: {
+        DEFAULT: "300ms",
+        fast: "150ms",
+        slow: "500ms",
+      },
     },
   },
   plugins: [],
