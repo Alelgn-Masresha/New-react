@@ -1,10 +1,9 @@
 import Hero from "./Components/Hero";
 import Nav from "./Components/Nav";
 import Destinations from "./Components/Destinations";
-import image1 from "./img/logo.png";
-import image2 from "./img/logo2.png";
 import gonder from "./img/gonder.jpg";
 import axum from "./img/axum.jpg";
+import HotelForm from "./Components/HotelForm";
 
 // slide image
 const images = [
@@ -26,6 +25,7 @@ function App() {
       <Nav />
       <Hero />
       <Destinations>{images}</Destinations>
+      <HotelForm />
     </>
   );
 }
